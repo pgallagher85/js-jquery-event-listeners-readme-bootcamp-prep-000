@@ -5,8 +5,8 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').on("load", function(key) {
-    key.addClass("#tasty")
+  $(document).on("load", function() {
+    $('img').addClass(".tasty")
   })
 }
 
